@@ -13,10 +13,10 @@ with open(join(dirname(__file__), 'scrapyd/VERSION')) as f:
     version = f.read().strip()
 
 setup_args = {
-    'name': 'scrapyd',
+    'name': 'aha-scrapyd',
     'version': version,
     'url': 'https://github.com/scrapy/scrapyd',
-    'description': 'A service for running Scrapy spiders, with an HTTP API',
+    'description': 'Pre-built of Scrapyd',
     'long_description': open('README.rst').read(),
     'author': 'Scrapy developers',
     'maintainer': 'Scrapy developers',
